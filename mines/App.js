@@ -3,7 +3,6 @@ import { SafeAreaView, Platform, ScrollView, StatusBar, StyleSheet, Text, useCol
 import params from './src/params'
 import Field from './src/components/Field';
 
-
 function App() {
 
     return (
@@ -13,6 +12,7 @@ function App() {
             <Text style={styles.welcome}>Tamanho da grade:
                 {params.getRowsAmount()}X{params.getColumnsAmount()}</Text>
 
+          
             <Field />
             <Field opened />
             <Field opened nearMines={1} />
@@ -26,6 +26,7 @@ function App() {
             <Field mined opened exploded />
             <Field flagged />
             <Field flagged opened />
+
         </View>
 
     );
