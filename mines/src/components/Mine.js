@@ -32,6 +32,6 @@ const styles = StyleSheet.create({
         width: 20,
         borderRadius: 3,
         backgroundColor: 'black',
-
+        
     }
 })
